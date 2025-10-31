@@ -5,4 +5,15 @@ body {
 
 .header {
     display: flex;
+    padding: 24px;
+    background-color: #1F2937;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    gap: 28px;
+    margin-left: auto;
 }
