@@ -3,10 +3,19 @@ body {
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.header {
+.hero {
+    background-color: #1F2937;
+    height: 500px;
+}
+
+.hero-container {
+    width: 1912px;
+    margin: auto;
+}
+
+.nav {
     display: flex;
     padding: 24px;
-    background-color: #1F2937;
     align-items: baseline;
 }
 
@@ -32,17 +41,17 @@ a {
     text-decoration: none;
 }
 
-.hero {
+.hero-box {
     display: flex;
-    justify-content: space-between;
     padding-left: 24px;
     padding-right: 24px;
-    background-color: #1F2937;
+    justify-content: space-between;
     flex: 1;
 }
 
 .hero-content-1 {
     margin-left: 100px;
+    width: 550px;
 }
 
 .heading {
@@ -71,10 +80,16 @@ button {
 }
 
 .hero-content-2 {
-    color: #e5e7eb;
     background-color: gray;
-    text-align: center;
-    flex: 1;
+    margin-right: 100px;
     width: 400px;
-    height: 400px;
+    height: 300px;
+}
+
+.header-2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 24px;
 }
