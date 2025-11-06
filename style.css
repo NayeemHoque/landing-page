@@ -47,6 +47,7 @@ a {
     padding-right: 24px;
     justify-content: space-between;
     flex: 1;
+    align-items: flex-start;
 }
 
 .hero-content-1 {
@@ -58,7 +59,6 @@ a {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
-    margin-top: 100px;
     width: 400px;
 }
 
@@ -82,8 +82,8 @@ button {
 .hero-content-2 {
     background-color: gray;
     margin-right: 100px;
-    width: 400px;
-    height: 300px;
+    width: 500px;
+    height: 400px;
 }
 
 .header-2 {
