@@ -3,56 +3,42 @@ body {
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.hero {
-    background-color: #1F2937;
-    height: 500px;
-}
-
-.hero-container {
-    width: 1912px;
-    margin: auto;
-}
-
 .nav {
     display: flex;
-    padding: 24px;
     align-items: baseline;
+    background-color: #1F2937;
+    justify-content: space-around;
+    padding-top: 24px;
 }
 
 ul {
     list-style-type: none;
-    margin: 0;
     display: flex;
     gap: 48px;
-    margin-left: auto;
-    margin-right: 100px;
     padding: 0;
 }
 
 .logo {
     font-weight: bold;
-    margin-left: 100px;
     font-size: 24px;
     color: #F9FAF8;
 }
 
 a {
-    color: white;
     text-decoration: none;
+    color: #F9FAF8;
 }
 
 .hero-box {
     display: flex;
-    padding-left: 24px;
-    padding-right: 24px;
-    justify-content: space-between;
-    flex: 1;
+    justify-content: space-evenly;
     align-items: flex-start;
+    background-color: #1F2937;
 }
 
 .hero-content-1 {
-    margin-left: 100px;
     width: 550px;
+    margin-top: 48px;
 }
 
 .heading {
@@ -81,9 +67,8 @@ button {
 
 .hero-content-2 {
     background-color: gray;
-    margin-right: 100px;
-    width: 500px;
-    height: 400px;
+    width: 450px;
+    height: 250px;
 }
 
 .header-2 {
