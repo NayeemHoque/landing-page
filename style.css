@@ -116,7 +116,7 @@ button {
 
 .quote {
     background: #e5e7eb;
-    padding: 96px 0;
+    padding: 84px 0;
 }
 
 .quote-container {
@@ -142,4 +142,39 @@ p.quote-text {
     width: 800px;
     text-align: right;
     margin: 0;
+}
+
+.cta-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    width: 900px;
+    height: 100px;
+    margin: 84px auto;
+    padding: 24px 48px;
+    border-radius: 12px;
+    justify-content: space-around;
+}
+
+.cta-1{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-family: Roboto, sans-serif;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.cta-2{
+    margin: 0;
+    margin-top: 5px;
+    padding: 0;
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+    color: #F9FAF8;
+}
+
+.cta-section .sign-up {
+    border: 2px solid #F9FAF8;
 }
