@@ -89,7 +89,7 @@ button {
     display: flex;
     justify-content: center;
     margin-top: 32px;
-    gap: 40px;
+    gap: 64px;
 }
 
 .card {
