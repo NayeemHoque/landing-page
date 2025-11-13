@@ -70,6 +70,15 @@ button {
     background-color: gray;
     width: 600px;
     height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
+}
+
+.hero-content-2 p {
+    color: #F9FAF8;
+    font-size: 18px;
 }
 
 .information {
